@@ -9,7 +9,9 @@ Codux is an all-in-one visual development environment. Whether you’re starting
 
 ### Take it for a Spin
 
-This repo provides an interactive playground for the [Bluprint.js](https://blueprintjs.com), React-based UI toolkit. It's a great way to explore how the library and Codux work.
+This project provides an interactive playground for the [Bluprint.js](https://blueprintjs.com), React-based UI toolkit. It's a great way to explore how the library and Codux work.
+
+This project was bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app).
 
 -   Learn how to edit, render and compose apps that make use of [@blueprintjs](https://blueprintjs.com/docs) components.
 -   Create **`React`**-based components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.

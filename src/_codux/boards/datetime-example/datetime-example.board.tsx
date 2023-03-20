@@ -3,5 +3,5 @@ import { DatetimeExample } from '../../../components/datetime-example/datetime-e
 
 export default createBoard({
     name: 'Datetime Example',
-    Board: () => <DatetimeExample />
+    Board: () => <DatetimeExample />,
 });

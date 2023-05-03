@@ -1,0 +1,23 @@
+name: 'build'
+on:
+    push:
+    pull_request:
+jobs:
+    build:
+        runs-on: ${{ matrix.platform }}
+        timeout-minutes: 3
+        strategy:
+            fail-fast: false
+            matrix:
+                platform: ['windows-latest', 'ubuntu-latest']
+                node-version: [18, 16, 14]
+        steps:
+            - uses: actions/checkout@v3
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  registry-url: 'https://registry.npmjs.org/'
+                  cache: 'npm'
+            - run: npm i
+            - run: npm run build

@@ -9,14 +9,14 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "@blueprintjs/core": "^4.20.1",
-        "@blueprintjs/datetime": "^4.4.36",
-        "@blueprintjs/datetime2": "^0.9.35",
-        "@blueprintjs/icons": "^4.16.0",
-        "@blueprintjs/popover2": "^1.14.9",
-        "@blueprintjs/select": "^4.9.22",
-        "@blueprintjs/table": "^4.10.10",
-        "@blueprintjs/timezone": "^4.5.41",
+        "@blueprintjs/core": "^5.0.1",
+        "@blueprintjs/datetime": "^5.0.1",
+        "@blueprintjs/datetime2": "^1.0.1",
+        "@blueprintjs/icons": "^5.0.0",
+        "@blueprintjs/popover2": "^2.0.1",
+        "@blueprintjs/select": "^5.0.1",
+        "@blueprintjs/table": "^5.0.1",
+        "@blueprintjs/timezone": "^4.5.43",
         "classnames": "^2.3.2",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -27,13 +27,13 @@
         "@testing-library/react": "^12.1.5",
         "@testing-library/user-event": "^14.4.3",
         "@types/jest": "^29.5.2",
-        "@types/node": "^20.3.0",
+        "@types/node": "^20.3.2",
         "@types/react": "^17.0.52",
         "@types/react-dom": "^17.0.18",
         "@wixc3/react-board": "^2.2.1",
         "react-scripts": "^5.0.1",
-        "sass": "^1.58.3",
-        "typescript": "~4.9.5"
+        "sass": "1.58.3",
+        "typescript": "4.9.5"
     },
     "eslintConfig": {
         "extends": [

@@ -5,7 +5,7 @@ import {
     ButtonGroup,
     Intent,
     Slider,
-    KeyCombo,
+    KeyComboTag,
 } from '@blueprintjs/core';
 
 import { Example } from '../example/example';
@@ -36,7 +36,7 @@ export const CoreExample = ({ className }: CoreExampleProps) => {
             <br />
             <br />
 
-            <KeyCombo combo="mod" />
+            <KeyComboTag combo="mod" />
             <br />
 
             <Slider

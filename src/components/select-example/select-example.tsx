@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import classNames from 'classnames';
 import { Button, MenuItem } from '@blueprintjs/core';
-import { Select2 } from '@blueprintjs/select';
+import { Select } from '@blueprintjs/select';
 
 import { Example } from '../example/example';
 import { filterFilm, renderFilm, IFilm, TOP_100_FILMS } from './films';
@@ -14,11 +14,8 @@ export interface SelectExampleProps {
 export const SelectExample = ({ className }: SelectExampleProps) => {
     const [film, setFilm] = useState<IFilm>(TOP_100_FILMS[0]);
     return (
-        <Example
-            header="Select Example"
-            className={classNames(styles.root, className)}
-        >
-            <Select2<IFilm>
+        <Example header="Select Example" className={classNames(styles.root, className)}>
+            <Select<IFilm>
                 items={TOP_100_FILMS}
                 itemPredicate={filterFilm}
                 itemRenderer={renderFilm}
@@ -27,7 +24,7 @@ export const SelectExample = ({ className }: SelectExampleProps) => {
                 className={styles.select}
             >
                 <Button text={film.title} rightIcon="caret-down" />
-            </Select2>
+            </Select>
         </Example>
     );
 };

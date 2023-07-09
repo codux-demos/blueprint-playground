@@ -22,5 +22,8 @@
     },
     "styling": {
         "solution": "scss modules"
+    },
+    "addPanel": {
+        "assets": ["@codux-boards/react-blueprint"]
     }
 }

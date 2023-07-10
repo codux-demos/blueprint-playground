@@ -1,57 +1,32 @@
 {
-    "name": "blueprint-playground",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "dependencies": {
-        "@blueprintjs/core": "^5.0.1",
-        "@blueprintjs/datetime": "^5.0.1",
-        "@blueprintjs/datetime2": "^1.0.1",
-        "@blueprintjs/icons": "^5.0.0",
-        "@blueprintjs/popover2": "^2.0.1",
-        "@blueprintjs/select": "^5.0.1",
-        "@blueprintjs/table": "^5.0.1",
-        "@blueprintjs/timezone": "^4.5.43",
-        "@codux-boards/react-blueprint": "^1.0.12",
-        "classnames": "^2.3.2",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "web-vitals": "^3.3.2"
-    },
-    "devDependencies": {
-        "@testing-library/jest-dom": "^5.16.5",
-        "@testing-library/react": "^12.1.5",
-        "@testing-library/user-event": "^14.4.3",
-        "@types/jest": "^29.5.2",
-        "@types/node": "^20.3.2",
-        "@types/react": "^17.0.52",
-        "@types/react-dom": "^17.0.18",
-        "@wixc3/react-board": "^2.2.1",
-        "react-scripts": "^5.0.1",
-        "sass": "^1.63.6",
-        "typescript": "4.9.5"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "blueprint-playground",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^5.0.1",
+    "@blueprintjs/datetime": "^5.0.1",
+    "@blueprintjs/icons": "^5.0.0",
+    "@blueprintjs/select": "^5.0.1",
+    "@blueprintjs/table": "^5.0.1",
+    "@codux-boards/react-blueprint": "^1.0.12",
+    "classnames": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite-plugin-svgr": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.52",
+    "@types/react-dom": "^17.0.18",
+    "@vitejs/plugin-react": "^4.0.2",
+    "@wixc3/react-board": "^2.2.1",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.0"
+  }
 }

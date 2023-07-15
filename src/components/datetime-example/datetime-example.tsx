@@ -10,10 +10,7 @@ export interface DatetimeExampleProps {
 
 export const DatetimeExample = ({ className }: DatetimeExampleProps) => {
     return (
-        <Example
-            header="Datetime Example"
-            className={classNames(styles.root, className)}
-        >
+        <Example header="Datetime Example" className={classNames(styles.root, className)}>
             <DatePicker className={styles.datepicker} timePrecision="minute" />
         </Example>
     );

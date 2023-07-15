@@ -18,16 +18,11 @@ export interface IFilm {
 
 export const filterFilm: ItemPredicate<IFilm> = (query, film) => {
     return (
-        `${film.rank}. ${film.title.toLowerCase()} ${film.year}`.indexOf(
-            query.toLowerCase()
-        ) >= 0
+        `${film.rank}. ${film.title.toLowerCase()} ${film.year}`.indexOf(query.toLowerCase()) >= 0
     );
 };
 
-export const renderFilm: ItemRenderer<IFilm> = (
-    film,
-    { handleClick, modifiers, query }
-) => {
+export const renderFilm: ItemRenderer<IFilm> = (film, { handleClick, modifiers, query }) => {
     if (!modifiers.matchesPredicate) {
         return null;
     }

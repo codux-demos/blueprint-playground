@@ -14,19 +14,19 @@
     "@blueprintjs/icons": "^5.1.6",
     "@blueprintjs/select": "^5.0.10",
     "@blueprintjs/table": "^5.0.10",
-    "@codux-boards/react-blueprint": "^1.0.14",
     "classnames": "^2.3.2",
     "react": "^17",
     "react-dom": "^17",
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
+    "@codux-boards/react-blueprint": "^1.0.14",
     "@types/react": "^17",
     "@types/react-dom": "^17",
     "@vitejs/plugin-react": "^4.0.4",
     "@wixc3/react-board": "^2.3.0",
     "prettier": "^3.0.3",
-    "sass": "^1.66.1",
+    "sass": "^1.67.0",
     "typescript": "~5.2.2",
     "vite": "^4.4.9"
   }

@@ -17,7 +17,7 @@
     "classnames": "^2.3.2",
     "react": "^17",
     "react-dom": "^17",
-    "vite-plugin-svgr": "^3.2.0"
+    "vite-plugin-svgr": "^4.0.0"
   },
   "devDependencies": {
     "@codux-boards/react-blueprint": "^1.0.14",

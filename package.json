@@ -16,8 +16,7 @@
     "@blueprintjs/table": "^5.0.10",
     "classnames": "^2.3.2",
     "react": "^17",
-    "react-dom": "^17",
-    "vite-plugin-svgr": "^4.0.0"
+    "react-dom": "^17"
   },
   "devDependencies": {
     "@codux-boards/react-blueprint": "^1.0.14",

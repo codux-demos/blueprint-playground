@@ -4,4 +4,5 @@ import { PopoverExample } from '../../../components/popover-example/popover-exam
 export default createBoard({
     name: 'Popover Example',
     Board: () => <PopoverExample />,
+    isSnippet: true,
 });

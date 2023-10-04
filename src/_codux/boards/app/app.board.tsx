@@ -4,4 +4,5 @@ import App from '../../../App';
 export default createBoard({
     name: 'App',
     Board: () => <App />,
+    isSnippet: true,
 });

@@ -4,4 +4,5 @@ import { NavigationBar } from '../../../components/navigation-bar/navigation-bar
 export default createBoard({
     name: 'Navigation Bar',
     Board: () => <NavigationBar />,
+    isSnippet: true,
 });

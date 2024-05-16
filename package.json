@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blueprintjs/core": "^5.10.2",
-    "@blueprintjs/datetime": "^5.3.4",
+    "@blueprintjs/core": "^5.10.3",
+    "@blueprintjs/datetime": "^5.3.5",
     "@blueprintjs/icons": "^5.9.0",
-    "@blueprintjs/select": "^5.1.4",
-    "@blueprintjs/table": "^5.1.4",
+    "@blueprintjs/select": "^5.1.5",
+    "@blueprintjs/table": "^5.1.5",
     "classnames": "^2.5.1",
     "react": "17",
     "react-dom": "17"
@@ -25,7 +25,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "@wixc3/react-board": "^2.5.0",
     "prettier": "^3.2.5",
-    "sass": "^1.77.0",
+    "sass": "^1.77.1",
     "typescript": "~5.4.5",
     "vite": "^5.2.11"
   }

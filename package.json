@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@blueprintjs/core": "^5.15.0",
-    "@blueprintjs/datetime2": "^2.3.16",
-    "@blueprintjs/icons": "^5.14.0",
-    "@blueprintjs/select": "^5.3.4",
-    "@blueprintjs/table": "^5.2.6",
+    "@blueprintjs/core": "^5.16.0",
+    "@blueprintjs/datetime2": "^2.3.17",
+    "@blueprintjs/icons": "^5.15.0",
+    "@blueprintjs/select": "^5.3.5",
+    "@blueprintjs/table": "^5.2.7",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -22,12 +22,12 @@
     "@codux-boards/react-blueprint": "^1.0.15",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.3",
-    "@wixc3/react-board": "^4.5.3",
-    "prettier": "^3.3.3",
-    "sass": "^1.81.0",
-    "typescript": "~5.6.3",
-    "vite": "^5.4.11"
+    "@vitejs/plugin-react": "^4.3.4",
+    "@wixc3/react-board": "^4.6.0",
+    "prettier": "^3.4.1",
+    "sass": "^1.81.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.2"
   },
   "overrides": {
     "@blueprintjs/datetime2": {
